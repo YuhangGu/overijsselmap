@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Overijssel map</title>
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3-array@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-geo@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
+
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>
+
+    <script src="https://threejs.org/examples/jsm/renderers/CSS3DRenderer.js"></script>
+
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@v0.154.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@v0.154.0/examples/jsm/"
+          }
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { display: flex; height: 100vh; font-family: Arial, sans-serif; }
+
+        /* Three.js 场景区域 */
+        #scene-container { flex: 2 }
+
+        /* 右侧控制面板 */
+        #control-panel { flex: 0.5; display: flex; flex-direction: column; padding: 10px; }
+
+        /* 上部分 - 控制选项 */
+        #settings { flex: 1; background: #f4f4f4; padding: 10px; border-radius: 5px; margin-bottom: 10px; }
+
+        /* 下部分 - 交互信息 */
+        #interaction-log { flex: 1; background: #eaeaea; padding: 10px; border-radius: 5px; overflow-y: auto; }
+
+        /* 标题样式 */
+        h3 { font-size: 16px; margin-bottom: 8px; }
+    </style>
+
+    <style>
+        #objectSelector {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 100;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+        }
+        #control-panel{
+            z-index: 100;
+        }
+    </style>
+
+</head>
+<body>
+<select id="objectSelector">
+    <option value="none">select a vis</option>
+    <!--option value="stc" >Space Time Cube</option-->
+    <option value="wall" >Walls</option>
+    <option value="wall_2D" >2D thickness</option>
+    <option value="arcs">Arcs</option>
+    <option value="particles_speed">Particles(speed)</option>
+    <option value="particles_frequency">Particles(frequency)</option>
+    <option value="particles_speed_2D">Particles(speed 2D)</option>
+    <option value="particles_frequency_2D">Particles(frequency 2D)</option>
+
+</select>
+
+
+<!-- Three.js 3D 场景 -->
+<div id="scene-container"></div>
+
+<!-- 右侧面板 -->
+
+
+<div id="control-panel">
+    <!-- 控制区域 -->
+    <div id="settings">
+        <h3>control panel</h3>
+        <div id="gui-container"></div>
+        <div class="controls">
+            <label>select all cities: <input type="checkbox" id="viaToggle"></label>
+        </div>
+        <div id="layerControls">
+
+        </div>
+    </div>
+    <!-- 交互信息 -->
+    <div id="interaction-log">
+
+    </div>
+</div>
+
+<script type="module" src="overijssel_map.js"></script>
+</body>
+</html>
