@@ -1,0 +1,99 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "F1" : "F1",
+    "COUNTRY" : "COUNTRY",
+    "OLD_NAME" : "OLD_NAME",
+    "NTIVE_NAME" : "NTIVE_NAME",
+    "NAME" : "NAME",
+    "X" : "X",
+    "Y" : "Y",
+    "DATA" : "DATA",
+    "TEMPERATUR" : "TEMPERATUR",
+    "CORPS" : "CORPS",
+    "SOLDIERS" : "SOLDIERS",
+    "URL" : "URL"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "F1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "F1"
+    },
+    {
+      "name" : "COUNTRY",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTRY",
+      "length" : 100
+    },
+    {
+      "name" : "OLD_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "OLD_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NTIVE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NTIVE_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "DATA",
+      "type" : "esriFieldTypeDate",
+      "alias" : "DATA",
+      "length" : 8
+    },
+    {
+      "name" : "TEMPERATUR",
+      "type" : "esriFieldTypeString",
+      "alias" : "TEMPERATUR",
+      "length" : 100
+    },
+    {
+      "name" : "CORPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CORPS",
+      "length" : 100
+    },
+    {
+      "name" : "SOLDIERS",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SOLDIERS"
+    },
+    {
+      "name" : "URL",
+      "type" : "esriFieldTypeString",
+      "alias" : "URL",
+      "length" : 254
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"F1":16.0,"COUNTRY":"Belarus","OLD_NAME":"Studienka","NTIVE_NAME":"Studienka","NAME":"Studienka","X":28.355236999999999,"Y":54.325052999999997,"DATA":-4957459200000,"TEMPERATUR":"-27","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":" "},"geometry":{"x":28.355236999999999,"y":54.325052999999997}},{"attributes":{"FID":1,"F1":17.0,"COUNTRY":"Belarus","OLD_NAME":"Molodetschno","NTIVE_NAME":"Maladziecna","NAME":"Maladziechna","X":26.858423999999999,"Y":54.317559000000003,"DATA":-4956940800000,"TEMPERATUR":"-36","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":" "},"geometry":{"x":26.858423999999999,"y":54.317559000000003}},{"attributes":{"FID":2,"F1":4.0,"COUNTRY":"Russian Federation","OLD_NAME":"Uschatz","NTIVE_NAME":"Ushachi","NAME":"Ushachi","X":28.616427000000002,"Y":55.179479999999998,"DATA":-4967481600000,"TEMPERATUR":"20","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":" "},"geometry":{"x":28.616427000000002,"y":55.179479999999998}},{"attributes":{"FID":3,"F1":20.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280127,"Y":54.689298000000001,"DATA":-4956422400000,"TEMPERATUR":"-32","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":4,"F1":21.0,"COUNTRY":"Lithuania","OLD_NAME":"Kowno","NTIVE_NAME":"Kaunas","NAME":"Kaunas","X":23.892240999999999,"Y":54.896929999999998,"DATA":-4956163200000,"TEMPERATUR":"-32","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Kaunas"},"geometry":{"x":23.892240999999999,"y":54.896929999999998}},{"attributes":{"FID":5,"F1":1.0,"COUNTRY":"Lithuania","OLD_NAME":"Kowno","NTIVE_NAME":"Kaunas","NAME":"Kaunas","X":23.892240999999999,"Y":54.896929999999998,"DATA":-4969036800000,"TEMPERATUR":"30","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Kaunas"},"geometry":{"x":23.892240999999999,"y":54.896929999999998}},{"attributes":{"FID":6,"F1":2.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280127,"Y":54.689298000000001,"DATA":-4968691200000,"TEMPERATUR":"30","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":7,"F1":7.0,"COUNTRY":"Belarus","OLD_NAME":"Witebsk","NTIVE_NAME":"Vitebsk","NAME":"Viciebsk","X":30.195433999999999,"Y":55.194405000000003,"DATA":-4966617600000,"TEMPERATUR":"20","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vitebsk"},"geometry":{"x":30.195433999999999,"y":55.194405000000003}},{"attributes":{"FID":8,"F1":14.0,"COUNTRY":"Russian Federation","OLD_NAME":"Krasnoi","NTIVE_NAME":"Krasny","NAME":"Krasny","X":31.435890000000001,"Y":54.56183,"DATA":-4958323200000,"TEMPERATUR":"-21","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Krasny,_Smolensk_Oblast"},"geometry":{"x":31.435890000000001,"y":54.56183}},{"attributes":{"FID":9,"F1":13.0,"COUNTRY":"Russian Federation","OLD_NAME":"Smolensk","NTIVE_NAME":"Smolensk","NAME":"Smolensk","X":32.049098000000001,"Y":54.781084,"DATA":-4959100800000,"TEMPERATUR":"-14","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Smolensk"},"geometry":{"x":32.049098000000001,"y":54.781084}},{"attributes":{"FID":10,"F1":12.0,"COUNTRY":"Russian Federation","OLD_NAME":"Dorogobusch","NTIVE_NAME":"Dorogobuzh","NAME":"Dorogobuzh","X":33.307760000000002,"Y":54.920423999999997,"DATA":-4959360000000,"TEMPERATUR":"-11","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":8.0,"URL":" "},"geometry":{"x":33.307760000000002,"y":54.920423999999997}},{"attributes":{"FID":11,"F1":10.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wiasma","NTIVE_NAME":"Vyazma","NAME":"Vyazma","X":34.309812999999998,"Y":55.211440000000003,"DATA":-4961606400000,"TEMPERATUR":"10","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vyazma"},"geometry":{"x":34.309812999999998,"y":55.211440000000003}},{"attributes":{"FID":12,"F1":11.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wiasma","NTIVE_NAME":"Vyazma","NAME":"Vyazma","X":34.309812999999998,"Y":55.211440000000003,"DATA":-4959705600000,"TEMPERATUR":"0","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vyazma"},"geometry":{"x":34.309812999999998,"y":55.211440000000003}},{"attributes":{"FID":13,"F1":9.0,"COUNTRY":"Russian Federation","OLD_NAME":"Dorogobusch","NTIVE_NAME":"Dorogobuzh","NAME":"Dorogobuzh","X":33.307760000000002,"Y":54.920423999999997,"DATA":-4961865600000,"TEMPERATUR":"10","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":8.0,"URL":" "},"geometry":{"x":33.307760000000002,"y":54.920423999999997}},{"attributes":{"FID":14,"F1":8.0,"COUNTRY":"Russian Federation","OLD_NAME":"Smolensk","NTIVE_NAME":"Smolensk","NAME":"Smolensk","X":32.049098000000001,"Y":54.781084,"DATA":-4966272000000,"TEMPERATUR":"20","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Smolensk"},"geometry":{"x":32.049098000000001,"y":54.781084}},{"attributes":{"FID":15,"F1":15.0,"COUNTRY":"Belarus","OLD_NAME":"Orscha","NTIVE_NAME":"Orsha","NAME":"Orsha","X":30.373000999999999,"Y":54.502636000000003,"DATA":-4958064000000,"TEMPERATUR":"-18","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Orsha"},"geometry":{"x":30.373000999999999,"y":54.502636000000003}},{"attributes":{"FID":16,"F1":3.0,"COUNTRY":"Belarus","OLD_NAME":"Glubokoe","NTIVE_NAME":"Hlybokaye","NAME":"Glubokoye","X":27.686985,"Y":55.138558000000003,"DATA":-4967913600000,"TEMPERATUR":"20","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Hlybokaye"},"geometry":{"x":27.686985,"y":55.138558000000003}},{"attributes":{"FID":17,"F1":5.0,"COUNTRY":"Belarus","OLD_NAME":"Beschenkowitschi","NTIVE_NAME":"Biešankovicy","NAME":"Beshankovichy","X":29.457242999999998,"Y":55.043917,"DATA":-4967308800000,"TEMPERATUR":"20","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Beshenkovichi"},"geometry":{"x":29.457242999999998,"y":55.043917}},{"attributes":{"FID":18,"F1":6.0,"COUNTRY":"Belarus","OLD_NAME":"Witebsk","NTIVE_NAME":"Vitebsk","NAME":"Viciebsk","X":30.195433999999999,"Y":55.194405000000003,"DATA":-4966617600000,"TEMPERATUR":"20","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vitebsk"},"geometry":{"x":30.195433999999999,"y":55.194405000000003}},{"attributes":{"FID":19,"F1":19.0,"COUNTRY":"Belarus","OLD_NAME":"Osmiana","NTIVE_NAME":"Oshmyany","NAME":"Oshmyany","X":25.935797000000001,"Y":54.424402000000001,"DATA":-4956595200000,"TEMPERATUR":"-32","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Oshmyany"},"geometry":{"x":25.935797000000001,"y":54.424402000000001}},{"attributes":{"FID":20,"F1":18.0,"COUNTRY":"Belarus","OLD_NAME":"Smorgoni","NTIVE_NAME":"Smarhon","NAME":"Smarhon","X":26.398738999999999,"Y":54.479869999999998,"DATA":-4956768000000,"TEMPERATUR":"-32","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Smarho%C5%84"},"geometry":{"x":26.398738999999999,"y":54.479869999999998}},{"attributes":{"FID":21,"F1":3.0,"COUNTRY":"Belarus","OLD_NAME":"Tschereia (not precise)","NTIVE_NAME":" ","NAME":" ","X":29.459607999999999,"Y":54.491847999999997,"DATA":-4958323200000,"TEMPERATUR":"-21","CORPS":"The Hessian contingent, 1st Bn Leibgarde regt & combined contingent","SOLDIERS":0.0,"URL":" "},"geometry":{"x":29.459607999999999,"y":54.491847999999997}}]
+}

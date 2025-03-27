@@ -1,0 +1,99 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "F1" : "F1",
+    "COUNTRY" : "COUNTRY",
+    "OLD_NAME" : "OLD_NAME",
+    "NTIVE_NAME" : "NTIVE_NAME",
+    "NAME" : "NAME",
+    "X" : "X",
+    "Y" : "Y",
+    "DATA" : "DATA",
+    "TEMPERATUR" : "TEMPERATUR",
+    "CORPS" : "CORPS",
+    "SOLDIERS" : "SOLDIERS",
+    "URL" : "URL"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "F1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "F1"
+    },
+    {
+      "name" : "COUNTRY",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTRY",
+      "length" : 100
+    },
+    {
+      "name" : "OLD_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "OLD_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NTIVE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NTIVE_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "DATA",
+      "type" : "esriFieldTypeDate",
+      "alias" : "DATA",
+      "length" : 8
+    },
+    {
+      "name" : "TEMPERATUR",
+      "type" : "esriFieldTypeString",
+      "alias" : "TEMPERATUR",
+      "length" : 100
+    },
+    {
+      "name" : "CORPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CORPS",
+      "length" : 50
+    },
+    {
+      "name" : "SOLDIERS",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SOLDIERS"
+    },
+    {
+      "name" : "URL",
+      "type" : "esriFieldTypeString",
+      "alias" : "URL",
+      "length" : 254
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"F1":12.0,"COUNTRY":"Belarus","OLD_NAME":"Studienka","NTIVE_NAME":"Studienka","NAME":"Studienka","X":28.355236999999999,"Y":54.325052999999997,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://www.panoramio.com/photo/10026733"},"geometry":{"x":28.355236999999999,"y":54.325052999999997}},{"attributes":{"FID":1,"F1":0.0,"COUNTRY":"Belarus","OLD_NAME":"Molodetschno","NTIVE_NAME":"Maladziecna","NAME":"Maladzechna","X":26.858423999999999,"Y":54.317559000000003,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Maladzechna"},"geometry":{"x":26.858423999999999,"y":54.317559000000003}},{"attributes":{"FID":2,"F1":16.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280127,"Y":54.689298000000001,"DATA":-4956508800000,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":3,"F1":2.0,"COUNTRY":"Lithuania","OLD_NAME":"Kowno","NTIVE_NAME":"Kauno","NAME":"Kaunas","X":23.892240999999999,"Y":54.896929999999998,"DATA":-4964803200000,"TEMPERATUR":"15","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Kaunas"},"geometry":{"x":23.892240999999999,"y":54.896929999999998}},{"attributes":{"FID":4,"F1":15.0,"COUNTRY":"Belarus","OLD_NAME":"Osmiana","NTIVE_NAME":"Oshmyany","NAME":"Oshmyany","X":25.935797000000001,"Y":54.424402000000001,"DATA":-4956681600000,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Oshmyany"},"geometry":{"x":25.935797000000001,"y":54.424402000000001}},{"attributes":{"FID":5,"F1":0.0,"COUNTRY":"Belarus","OLD_NAME":"Smorgoni","NTIVE_NAME":"Smarhon","NAME":"Smarhon","X":26.398738999999999,"Y":54.479869999999998,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Smarho%C5%84"},"geometry":{"x":26.398738999999999,"y":54.479869999999998}},{"attributes":{"FID":6,"F1":0.0,"COUNTRY":"Belarus","OLD_NAME":"Beschenkowitschi","NTIVE_NAME":"Biešankovicy","NAME":"Beshankovichy","X":29.457242999999998,"Y":55.043917,"DATA":-4960310400000,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Beshenkovichi"},"geometry":{"x":29.457242999999998,"y":55.043917}},{"attributes":{"FID":7,"F1":9.0,"COUNTRY":"Belarus","OLD_NAME":"Witebsk","NTIVE_NAME":"Vitebsk","NAME":"Viciebsk","X":30.195433999999999,"Y":55.194405000000003,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vitebsk"},"geometry":{"x":30.195433999999999,"y":55.194405000000003}},{"attributes":{"FID":8,"F1":1.0,"COUNTRY":"Lithuania","OLD_NAME":"Kowno","NTIVE_NAME":"Kauno","NAME":"Kaunas","X":23.892199999999999,"Y":54.896900000000002,"DATA":-4965062400000,"TEMPERATUR":"20","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Kaunas"},"geometry":{"x":23.892240999999999,"y":54.896929999999998}},{"attributes":{"FID":9,"F1":13.0,"COUNTRY":"Belarus","OLD_NAME":"Ilia","NTIVE_NAME":"Il'lya","NAME":"Il'lya","X":0.0,"Y":0.0,"DATA":-4956940800000,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":" "},"geometry":{"x":27.290913,"y":54.412413000000001}},{"attributes":{"FID":10,"F1":5.0,"COUNTRY":"Belarus","OLD_NAME":"Minsk","NTIVE_NAME":"Minsk","NAME":"Minsk","X":0.0,"Y":0.0,"DATA":-4963766400000,"TEMPERATUR":"15","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":" "},"geometry":{"x":27.561641000000002,"y":53.905161999999997}},{"attributes":{"FID":11,"F1":3.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280100000000001,"Y":54.689300000000003,"DATA":-4964457600000,"TEMPERATUR":"15","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":12,"F1":4.0,"COUNTRY":"Belarus","OLD_NAME":"Osmiana","NTIVE_NAME":"Oshmyany","NAME":"Oshmyany","X":25.9358,"Y":54.424399999999999,"DATA":-4964198400000,"TEMPERATUR":"15","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Oshmyany"},"geometry":{"x":25.935797000000001,"y":54.424402000000001}},{"attributes":{"FID":13,"F1":14.0,"COUNTRY":"Belarus","OLD_NAME":"Molodetschno","NTIVE_NAME":"Maladziecna","NAME":"Maladzechna","X":26.8584,"Y":54.317599999999999,"DATA":-4956854400000,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Maladzechna"},"geometry":{"x":26.858423999999999,"y":54.317559000000003}},{"attributes":{"FID":14,"F1":10.0,"COUNTRY":"Belarus","OLD_NAME":"Tschaschniki","NTIVE_NAME":"Chashniki","NAME":"Chashniki","X":0.0,"Y":0.0,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Chashniki"},"geometry":{"x":29.173186999999999,"y":54.848993999999998}},{"attributes":{"FID":15,"F1":6.0,"COUNTRY":"Belarus","OLD_NAME":"Borisow","NTIVE_NAME":"Barysau","NAME":"Borisov","X":28.509399999999999,"Y":54.233400000000003,"DATA":-4963507200000,"TEMPERATUR":"15","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":" "},"geometry":{"x":28.509444999999999,"y":54.23339}},{"attributes":{"FID":16,"F1":17.0,"COUNTRY":"Lithuania","OLD_NAME":"Kowno","NTIVE_NAME":"Kauno","NAME":"Kaunas","X":23.892199999999999,"Y":54.896900000000002,"DATA":-4956076800000,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Kaunas"},"geometry":{"x":23.892240999999999,"y":54.896929999999998}},{"attributes":{"FID":17,"F1":7.0,"COUNTRY":"Belarus","OLD_NAME":"Ula","NTIVE_NAME":"Ulla","NAME":"Ulla","X":29.246127999999999,"Y":55.227483999999997,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":" "},"geometry":{"x":29.246127999999999,"y":55.227483999999997}},{"attributes":{"FID":18,"F1":11.0,"COUNTRY":"Belarus","OLD_NAME":"Borisow","NTIVE_NAME":"Barysau","NAME":"Borisov","X":28.509399999999999,"Y":54.233400000000003,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":" "},"geometry":{"x":28.509444999999999,"y":54.23339}},{"attributes":{"FID":19,"F1":8.0,"COUNTRY":"Belarus","OLD_NAME":"Ula","NTIVE_NAME":"Ulla","NAME":"Ulla","X":29.246127999999999,"Y":55.227483999999997,"DATA":null,"TEMPERATUR":" ","CORPS":"Baden Brigade","SOLDIERS":0.0,"URL":" "},"geometry":{"x":29.246127999999999,"y":55.227483999999997}}]
+}

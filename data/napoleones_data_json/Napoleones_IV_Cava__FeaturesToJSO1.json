@@ -1,0 +1,99 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "F1" : "F1",
+    "COUNTRY" : "COUNTRY",
+    "OLD_NAME" : "OLD_NAME",
+    "NTIVE_NAME" : "NTIVE_NAME",
+    "NAME" : "NAME",
+    "X" : "X",
+    "Y" : "Y",
+    "DATA" : "DATA",
+    "TEMPERATUR" : "TEMPERATUR",
+    "CORPS" : "CORPS",
+    "SOLDIERS" : "SOLDIERS",
+    "URL" : "URL"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "F1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "F1"
+    },
+    {
+      "name" : "COUNTRY",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTRY",
+      "length" : 100
+    },
+    {
+      "name" : "OLD_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "OLD_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NTIVE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NTIVE_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "DATA",
+      "type" : "esriFieldTypeDate",
+      "alias" : "DATA",
+      "length" : 8
+    },
+    {
+      "name" : "TEMPERATUR",
+      "type" : "esriFieldTypeString",
+      "alias" : "TEMPERATUR",
+      "length" : 100
+    },
+    {
+      "name" : "CORPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CORPS",
+      "length" : 50
+    },
+    {
+      "name" : "SOLDIERS",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SOLDIERS"
+    },
+    {
+      "name" : "URL",
+      "type" : "esriFieldTypeString",
+      "alias" : "URL",
+      "length" : 254
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"F1":2.0,"COUNTRY":"Belarus","OLD_NAME":"Grodno","NTIVE_NAME":"Hrodna","NAME":"Hrodna","X":23.869515,"Y":53.673375999999998,"DATA":-4970160000000,"TEMPERATUR":"30","CORPS":"IV Cavalry Corps","SOLDIERS":34000.0,"URL":" "},"geometry":{"x":23.861094999999999,"y":53.684252000000001}},{"attributes":{"FID":1,"F1":1.0,"COUNTRY":"Belarus","OLD_NAME":"Grodno","NTIVE_NAME":"Hrodna","NAME":"Hrodna","X":23.869515,"Y":53.673375999999998,"DATA":-4970419200000,"TEMPERATUR":"30","CORPS":"IV Cavalry Corps","SOLDIERS":36000.0,"URL":" "},"geometry":{"x":23.861094999999999,"y":53.684252000000001}},{"attributes":{"FID":2,"F1":3.0,"COUNTRY":"Belarus","OLD_NAME":"Novogroder","NTIVE_NAME":"Navahrudak","NAME":"Navahrudak","X":25.818859,"Y":53.572763999999999,"DATA":-4969728000000,"TEMPERATUR":"30","CORPS":"IV Cavalry Corps","SOLDIERS":32000.0,"URL":" "},"geometry":{"x":25.817004000000001,"y":53.592700000000001}},{"attributes":{"FID":3,"F1":4.0,"COUNTRY":"Belarus","OLD_NAME":"Omir","NTIVE_NAME":"Mir","NAME":"Mir","X":26.460256000000001,"Y":53.472152999999999,"DATA":-4969555200000,"TEMPERATUR":"30","CORPS":"IV Cavalry Corps","SOLDIERS":29000.0,"URL":"http://en.wikipedia.org/wiki/Mir_Castle_Complex"},"geometry":{"x":26.465693000000002,"y":53.454076000000001}},{"attributes":{"FID":4,"F1":5.0,"COUNTRY":"Belarus","OLD_NAME":"Nesvizh","NTIVE_NAME":"Niasviz","NAME":"Niasviz","X":26.686630999999998,"Y":53.208047999999998,"DATA":-4969382400000,"TEMPERATUR":"30","CORPS":"IV Cavalry Corps","SOLDIERS":28000.0,"URL":" "},"geometry":{"x":26.680146000000001,"y":53.222814999999997}},{"attributes":{"FID":5,"F1":6.0,"COUNTRY":"Belarus","OLD_NAME":"Romanovo (not precise)","NTIVE_NAME":" ","NAME":" ","X":27.126805999999998,"Y":53.107436999999997,"DATA":-4969209600000,"TEMPERATUR":"30","CORPS":"IV Cavalry Corps","SOLDIERS":27000.0,"URL":" "},"geometry":{"x":27.114398999999999,"y":53.123040000000003}},{"attributes":{"FID":6,"F1":7.0,"COUNTRY":"Belarus","OLD_NAME":"Igumen (not precise)","NTIVE_NAME":" ","NAME":" ","X":28.384447000000002,"Y":53.673375999999998,"DATA":-4968432000000,"TEMPERATUR":"20","CORPS":"IV Cavalry Corps","SOLDIERS":24000.0,"URL":" "},"geometry":{"x":28.366705,"y":53.671836999999996}},{"attributes":{"FID":7,"F1":9.0,"COUNTRY":"Belarus","OLD_NAME":"Mohilew","NTIVE_NAME":"Mogilev","NAME":"Mogilev","X":30.421825999999999,"Y":53.912328000000002,"DATA":-4967308800000,"TEMPERATUR":"20","CORPS":"IV Cavalry Corps","SOLDIERS":19500.0,"URL":" "},"geometry":{"x":30.408332999999999,"y":53.914439999999999}},{"attributes":{"FID":8,"F1":8.0,"COUNTRY":"Belarus","OLD_NAME":"Rogaschew","NTIVE_NAME":"Rahachow","NAME":"Rahachow","X":30.044533000000001,"Y":53.057132000000003,"DATA":-4967913600000,"TEMPERATUR":"20","CORPS":"IV Cavalry Corps","SOLDIERS":22000.0,"URL":" "},"geometry":{"x":30.049894999999999,"y":53.091365000000003}}]
+}

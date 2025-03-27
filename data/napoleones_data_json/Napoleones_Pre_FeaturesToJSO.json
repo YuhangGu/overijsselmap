@@ -1,0 +1,99 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "F1" : "F1",
+    "COUNTRY" : "COUNTRY",
+    "OLD_NAME" : "OLD_NAME",
+    "NTIVE_NAME" : "NTIVE_NAME",
+    "NAME" : "NAME",
+    "X" : "X",
+    "Y" : "Y",
+    "DATA" : "DATA",
+    "TEMPERATUR" : "TEMPERATUR",
+    "CORPS" : "CORPS",
+    "SOLDIERS" : "SOLDIERS",
+    "URL" : "URL"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "F1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "F1"
+    },
+    {
+      "name" : "COUNTRY",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTRY",
+      "length" : 100
+    },
+    {
+      "name" : "OLD_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "OLD_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NTIVE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NTIVE_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "DATA",
+      "type" : "esriFieldTypeDate",
+      "alias" : "DATA",
+      "length" : 8
+    },
+    {
+      "name" : "TEMPERATUR",
+      "type" : "esriFieldTypeString",
+      "alias" : "TEMPERATUR",
+      "length" : 100
+    },
+    {
+      "name" : "CORPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CORPS",
+      "length" : 50
+    },
+    {
+      "name" : "SOLDIERS",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SOLDIERS"
+    },
+    {
+      "name" : "URL",
+      "type" : "esriFieldTypeString",
+      "alias" : "URL",
+      "length" : 254
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"F1":40.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wiasma","NTIVE_NAME":"Vyazma","NAME":"Vyazma","X":34.309812999999998,"Y":55.211440000000003,"DATA":-4959532800000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vyazma"},"geometry":{"x":34.309812999999998,"y":55.211440000000003}},{"attributes":{"FID":1,"F1":28.0,"COUNTRY":"Russian Federation","OLD_NAME":"Moscow","NTIVE_NAME":"Moscow","NAME":"Moscow","X":37.617758000000002,"Y":55.756278000000002,"DATA":-4963766400000,"TEMPERATUR":"15","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Moscow"},"geometry":{"x":37.617758000000002,"y":55.756278000000002}},{"attributes":{"FID":2,"F1":32.0,"COUNTRY":"Russian Federation","OLD_NAME":"Fominskoe","NTIVE_NAME":"Naro-Fominsk","NAME":"Naro-Fominsk","X":36.754843000000001,"Y":55.383712000000003,"DATA":-4961088000000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Naro-Fominsk"},"geometry":{"x":37.316063999999997,"y":55.523601999999997}},{"attributes":{"FID":3,"F1":35.0,"COUNTRY":"Russian Federation","OLD_NAME":"Malo Jaroslawets","NTIVE_NAME":"Maloyaroslavets","NAME":"Maloyaroslavets","X":36.476559999999999,"Y":55.009594999999997,"DATA":-4960396800000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Maloyaroslavets"},"geometry":{"x":36.476559999999999,"y":55.009594999999997}},{"attributes":{"FID":4,"F1":41.0,"COUNTRY":"Russian Federation","OLD_NAME":"Dorogobusch","NTIVE_NAME":"Dorogobuzh","NAME":"Dorogobuzh","X":33.307760000000002,"Y":54.920423999999997,"DATA":-4959187200000,"TEMPERATUR":"-11","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":33.307760000000002,"y":54.920423999999997}},{"attributes":{"FID":5,"F1":42.0,"COUNTRY":"Russian Federation","OLD_NAME":"Smolensk","NTIVE_NAME":"Smolensk","NAME":"Smolensk","X":32.049098000000001,"Y":54.781084,"DATA":-4958928000000,"TEMPERATUR":"-20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Smolensk"},"geometry":{"x":32.049098000000001,"y":54.781084}},{"attributes":{"FID":6,"F1":43.0,"COUNTRY":"Russian Federation","OLD_NAME":"Krasnoi","NTIVE_NAME":"Krasny","NAME":"Krasny","X":31.435890000000001,"Y":54.56183,"DATA":-4966358400000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Krasny,_Smolensk_Oblast"},"geometry":{"x":31.435890000000001,"y":54.56183}},{"attributes":{"FID":7,"F1":44.0,"COUNTRY":"Belarus","OLD_NAME":"Orscha","NTIVE_NAME":"Orsha","NAME":"Orsha","X":30.373000999999999,"Y":54.502636000000003,"DATA":-4958064000000,"TEMPERATUR":"-18","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Orsha"},"geometry":{"x":30.373000999999999,"y":54.502636000000003}},{"attributes":{"FID":8,"F1":46.0,"COUNTRY":"Belarus","OLD_NAME":"Studienka","NTIVE_NAME":"Studienka","NAME":"Studienka","X":28.355236999999999,"Y":54.325052999999997,"DATA":-4957459200000,"TEMPERATUR":"-27","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://www.panoramio.com/photo/10026733"},"geometry":{"x":28.355236999999999,"y":54.325052999999997}},{"attributes":{"FID":9,"F1":47.0,"COUNTRY":"Belarus","OLD_NAME":"Molodetschno","NTIVE_NAME":"Maladziecna","NAME":"Maladzechna","X":26.858423999999999,"Y":54.317559000000003,"DATA":-4957113600000,"TEMPERATUR":"-33","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Maladzechna"},"geometry":{"x":26.858423999999999,"y":54.317559000000003}},{"attributes":{"FID":10,"F1":48.0,"COUNTRY":"Belarus","OLD_NAME":"Smorgoni","NTIVE_NAME":"Smarhon","NAME":"Smarhon","X":26.398738999999999,"Y":54.479869999999998,"DATA":-4956768000000,"TEMPERATUR":"-32","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Smarho%C5%84"},"geometry":{"x":26.398738999999999,"y":54.479869999999998}},{"attributes":{"FID":11,"F1":50.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280127,"Y":54.689298000000001,"DATA":-4956422400000,"TEMPERATUR":"-32","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":12,"F1":1.0,"COUNTRY":"Lithuania","OLD_NAME":"Zismori","NTIVE_NAME":"Žiežmariai","NAME":"Ziezmariai","X":24.4453,"Y":54.806173999999999,"DATA":-4970246400000,"TEMPERATUR":"30","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":24.4453,"y":54.806173999999999}},{"attributes":{"FID":13,"F1":49.0,"COUNTRY":"Belarus","OLD_NAME":"Osmiana","NTIVE_NAME":"Oshmyany","NAME":"Oshmyany","X":25.935797000000001,"Y":54.424402000000001,"DATA":-4956595200000,"TEMPERATUR":"-32","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Oshmyany"},"geometry":{"x":25.935797000000001,"y":54.424402000000001}},{"attributes":{"FID":14,"F1":38.0,"COUNTRY":"Russian Federation","OLD_NAME":"Borodino","NTIVE_NAME":"Borodino","NAME":"Borodino","X":35.816859999999998,"Y":55.517966000000001,"DATA":-4959878400000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Battle_of_Borodino"},"geometry":{"x":35.816859999999998,"y":55.517966000000001}},{"attributes":{"FID":15,"F1":26.0,"COUNTRY":"Russian Federation","OLD_NAME":"Ruza","NTIVE_NAME":"Ruza","NAME":"Ruza","X":36.205460000000002,"Y":55.699409000000003,"DATA":-4964284800000,"TEMPERATUR":"15","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Ruza"},"geometry":{"x":36.205460000000002,"y":55.699409000000003}},{"attributes":{"FID":16,"F1":45.0,"COUNTRY":"Belarus","OLD_NAME":"Tolschin","NTIVE_NAME":"Talachyn","NAME":"Talachyn","X":29.697047999999999,"Y":54.408271999999997,"DATA":-4957718400000,"TEMPERATUR":"-14","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":29.697047999999999,"y":54.408271999999997}},{"attributes":{"FID":17,"F1":5.0,"COUNTRY":"Belarus","OLD_NAME":"Danilowitschi (not precise)","NTIVE_NAME":" ","NAME":" ","X":27.271927999999999,"Y":55.047446999999998,"DATA":-4968864000000,"TEMPERATUR":"30","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":27.271927999999999,"y":55.047446999999998}},{"attributes":{"FID":18,"F1":6.0,"COUNTRY":"Belarus","OLD_NAME":"Glubukoje","NTIVE_NAME":"Hlybokaye","NAME":"Glubokoye","X":27.686985,"Y":55.138558000000003,"DATA":-4968604800000,"TEMPERATUR":"30","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Hlybokaye"},"geometry":{"x":27.686985,"y":55.138558000000003}},{"attributes":{"FID":19,"F1":37.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wereja","NTIVE_NAME":"Vereya","NAME":"Vereya","X":36.184258,"Y":55.342301999999997,"DATA":-4960051200000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":36.184258,"y":55.342301999999997}},{"attributes":{"FID":20,"F1":36.0,"COUNTRY":"Russian Federation","OLD_NAME":"Borowsk","NTIVE_NAME":"Borovsk","NAME":"Borovsk","X":36.484017000000001,"Y":55.204357999999999,"DATA":-4960137600000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":36.484017000000001,"y":55.204357999999999}},{"attributes":{"FID":21,"F1":33.0,"COUNTRY":"Russian Federation","OLD_NAME":"Masikowa (not precise)","NTIVE_NAME":" ","NAME":" ","X":36.768056000000001,"Y":55.254534,"DATA":-4960915200000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":36.768056000000001,"y":55.254534}},{"attributes":{"FID":22,"F1":34.0,"COUNTRY":"Russian Federation","OLD_NAME":"Winkowo (not precise)","NTIVE_NAME":" ","NAME":" ","X":36.720286000000002,"Y":55.140397,"DATA":-4960915200000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":36.720286000000002,"y":55.140397}},{"attributes":{"FID":23,"F1":31.0,"COUNTRY":"Russian Federation","OLD_NAME":"Perschuschkino (not precise)","NTIVE_NAME":" ","NAME":" ","X":37.108944999999999,"Y":55.717694999999999,"DATA":-4961174400000,"TEMPERATUR":"10","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":37.108944999999999,"y":55.717694999999999}},{"attributes":{"FID":24,"F1":2.0,"COUNTRY":"Lithuania","OLD_NAME":"Novi Troki","NTIVE_NAME":"Trakai","NAME":"Trakai","X":24.934899999999999,"Y":54.638800000000003,"DATA":-4970073600000,"TEMPERATUR":"30","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Trakai"},"geometry":{"x":24.934864999999999,"y":54.638846000000001}},{"attributes":{"FID":25,"F1":7.0,"COUNTRY":"Belarus","OLD_NAME":"Kamen","NTIVE_NAME":"Kamen","NAME":"Kamen","X":28.884599999999999,"Y":55.016300000000001,"DATA":-4968518400000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":28.884637000000001,"y":55.016283999999999}},{"attributes":{"FID":26,"F1":4.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280100000000001,"Y":54.689300000000003,"DATA":-4969209600000,"TEMPERATUR":"30","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":27,"F1":8.0,"COUNTRY":"Belarus","OLD_NAME":"Ula","NTIVE_NAME":"Ulla","NAME":"Ulla","X":0.0,"Y":0.0,"DATA":-4968432000000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":29.246127999999999,"y":55.227483999999997}},{"attributes":{"FID":28,"F1":10.0,"COUNTRY":"Belarus","OLD_NAME":"Beschenkowitschi","NTIVE_NAME":"Biešankovicy","NAME":"Beshankovichy","X":29.4572,"Y":55.043900000000001,"DATA":-4967308800000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Beshenkovichi"},"geometry":{"x":29.457242999999998,"y":55.043917}},{"attributes":{"FID":29,"F1":11.0,"COUNTRY":"Belarus","OLD_NAME":"Witebsk","NTIVE_NAME":"Vitebsk","NAME":"Viciebsk","X":30.195399999999999,"Y":55.194400000000002,"DATA":-4968172800000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vitebsk"},"geometry":{"x":30.195433999999999,"y":55.194405000000003}},{"attributes":{"FID":30,"F1":16.0,"COUNTRY":"Belarus","OLD_NAME":"Suraje","NTIVE_NAME":"Surazh","NAME":"Surazh","X":30.5749,"Y":55.463799999999999,"DATA":-4966963200000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":30.734083999999999,"y":55.409559999999999}},{"attributes":{"FID":31,"F1":15.0,"COUNTRY":"Russian Federation","OLD_NAME":"Welisch","NTIVE_NAME":"Velizh","NAME":"Velizh","X":0.0,"Y":0.0,"DATA":-4967049600000,"TEMPERATUR":"20","CORPS":" Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":31.201343000000001,"y":55.601306000000001}},{"attributes":{"FID":32,"F1":14.0,"COUNTRY":"Russian Federation","OLD_NAME":"Poriecze (not precise)","NTIVE_NAME":" ","NAME":" ","X":0.0,"Y":0.0,"DATA":-4967395200000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":31.410612,"y":55.321744000000002}},{"attributes":{"FID":33,"F1":13.0,"COUNTRY":"Russian Federation","OLD_NAME":"Poriecze (not precise)","NTIVE_NAME":" ","NAME":" ","X":0.0,"Y":0.0,"DATA":-4967654400000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":31.410612,"y":55.321744000000002}},{"attributes":{"FID":34,"F1":12.0,"COUNTRY":"Belarus","OLD_NAME":"Suraje","NTIVE_NAME":"Surazh","NAME":"Surazh","X":30.5749,"Y":55.463799999999999,"DATA":-4968000000000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":30.734083999999999,"y":55.409559999999999}},{"attributes":{"FID":35,"F1":17.0,"COUNTRY":"Belarus","OLD_NAME":"Welikowitschi (not precise)","NTIVE_NAME":" ","NAME":" ","X":0.0,"Y":0.0,"DATA":-4966790400000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":30.692530999999999,"y":55.161366999999998}},{"attributes":{"FID":36,"F1":18.0,"COUNTRY":"Russian Federation","OLD_NAME":"Komino (not precise)","NTIVE_NAME":" ","NAME":" ","X":0.0,"Y":0.0,"DATA":-4966444800000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":31.061354000000001,"y":54.790239999999997}},{"attributes":{"FID":37,"F1":9.0,"COUNTRY":"Belarus","OLD_NAME":"Beschenkowitschi","NTIVE_NAME":"Biešankovicy","NAME":"Beshankovichy","X":29.4572,"Y":55.043900000000001,"DATA":-4968345600000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Beshenkovichi"},"geometry":{"x":29.457242999999998,"y":55.043917}},{"attributes":{"FID":38,"F1":21.0,"COUNTRY":"Russian Federation","OLD_NAME":"Pologi","NTIVE_NAME":" ","NAME":" ","X":0.0,"Y":0.0,"DATA":-4965667200000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":32.625757,"y":55.060656999999999}},{"attributes":{"FID":39,"F1":25.0,"COUNTRY":"Russian Federation","OLD_NAME":"Borodino","NTIVE_NAME":"Borodino","NAME":"Borodino","X":35.816899999999997,"Y":55.518000000000001,"DATA":-4964457600000,"TEMPERATUR":"15","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Battle_of_Borodino"},"geometry":{"x":35.816859999999998,"y":55.517966000000001}},{"attributes":{"FID":40,"F1":24.0,"COUNTRY":"Russian Federation","OLD_NAME":"Borodino","NTIVE_NAME":"Borodino","NAME":"Borodino","X":35.816899999999997,"Y":55.518000000000001,"DATA":-4964630400000,"TEMPERATUR":"15","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Battle_of_Borodino"},"geometry":{"x":35.816859999999998,"y":55.517966000000001}},{"attributes":{"FID":41,"F1":27.0,"COUNTRY":"Russian Federation","OLD_NAME":"Zwenigorod","NTIVE_NAME":"Zvenigorod","NAME":"Zvenigorod","X":0.0,"Y":0.0,"DATA":-4964112000000,"TEMPERATUR":"15","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":36.870852999999997,"y":55.732225}},{"attributes":{"FID":42,"F1":29.0,"COUNTRY":"Russian Federation","OLD_NAME":"Moscow","NTIVE_NAME":"Moscow","NAME":"Moscow","X":37.617800000000003,"Y":55.756300000000003,"DATA":-4962902400000,"TEMPERATUR":"15","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Moscow"},"geometry":{"x":37.617758000000002,"y":55.756278000000002}},{"attributes":{"FID":43,"F1":30.0,"COUNTRY":"Russian Federation","OLD_NAME":"Perschuschkino (not precise)","NTIVE_NAME":" ","NAME":" ","X":37.108899999999998,"Y":55.717700000000001,"DATA":-4962643200000,"TEMPERATUR":"15","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":37.108944999999999,"y":55.717694999999999}},{"attributes":{"FID":44,"F1":39.0,"COUNTRY":"Russian Federation","OLD_NAME":"Chiatz","NTIVE_NAME":"Gagarin","NAME":"Gagarin","X":35.012900000000002,"Y":55.550600000000003,"DATA":-4959705600000,"TEMPERATUR":"0","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Gagarin,_Russia"},"geometry":{"x":35.012864999999998,"y":55.550635}},{"attributes":{"FID":45,"F1":23.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wiasma","NTIVE_NAME":"Vyazma","NAME":"Vyazma","X":34.309800000000003,"Y":55.211399999999998,"DATA":-4965235200000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vyazma"},"geometry":{"x":34.309812999999998,"y":55.211440000000003}},{"attributes":{"FID":46,"F1":22.0,"COUNTRY":"Russian Federation","OLD_NAME":"Dorogobusch","NTIVE_NAME":"Dorogobuzh","NAME":"Dorogobuzh","X":33.3078,"Y":54.920400000000001,"DATA":-4965494400000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":33.307760000000002,"y":54.920423999999997}},{"attributes":{"FID":47,"F1":20.0,"COUNTRY":"Russian Federation","OLD_NAME":"Smolensk","NTIVE_NAME":"Smolensk","NAME":"Smolensk","X":32.049100000000003,"Y":54.781100000000002,"DATA":-4966012800000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Smolensk"},"geometry":{"x":32.049098000000001,"y":54.781084}},{"attributes":{"FID":48,"F1":19.0,"COUNTRY":"Russian Federation","OLD_NAME":"Krasnoi","NTIVE_NAME":"Krasny","NAME":"Krasny","X":31.4359,"Y":54.561799999999998,"DATA":-4966358400000,"TEMPERATUR":"20","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Krasny,_Smolensk_Oblast"},"geometry":{"x":31.435890000000001,"y":54.56183}},{"attributes":{"FID":49,"F1":51.0,"COUNTRY":"Lithuania","OLD_NAME":"Rumschischky","NTIVE_NAME":"Rumsiskes","NAME":"Rumsiskes","X":0.0,"Y":0.0,"DATA":-4956163200000,"TEMPERATUR":"-32","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":" "},"geometry":{"x":24.217096000000002,"y":54.866255000000002}},{"attributes":{"FID":50,"F1":3.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280100000000001,"Y":54.689300000000003,"DATA":-4969900800000,"TEMPERATUR":"30","CORPS":"Preysings Cavalry Division","SOLDIERS":0.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}}]
+}

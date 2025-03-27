@@ -1,0 +1,99 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "F1" : "F1",
+    "COUNTRY" : "COUNTRY",
+    "OLD_NAME" : "OLD_NAME",
+    "NTIVE_NAME" : "NTIVE_NAME",
+    "NAME" : "NAME",
+    "X" : "X",
+    "Y" : "Y",
+    "DATA" : "DATA",
+    "TEMPERATUR" : "TEMPERATUR",
+    "CORPS" : "CORPS",
+    "SOLDIERS" : "SOLDIERS",
+    "URL" : "URL"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "F1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "F1"
+    },
+    {
+      "name" : "COUNTRY",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTRY",
+      "length" : 100
+    },
+    {
+      "name" : "OLD_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "OLD_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NTIVE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NTIVE_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "DATA",
+      "type" : "esriFieldTypeDate",
+      "alias" : "DATA",
+      "length" : 8
+    },
+    {
+      "name" : "TEMPERATUR",
+      "type" : "esriFieldTypeString",
+      "alias" : "TEMPERATUR",
+      "length" : 100
+    },
+    {
+      "name" : "CORPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CORPS",
+      "length" : 50
+    },
+    {
+      "name" : "SOLDIERS",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SOLDIERS"
+    },
+    {
+      "name" : "URL",
+      "type" : "esriFieldTypeString",
+      "alias" : "URL",
+      "length" : 254
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"F1":34.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280127,"Y":54.689298000000001,"DATA":-4956422400000,"TEMPERATUR":"-32","CORPS":"III Corps","SOLDIERS":2000.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":1,"F1":35.0,"COUNTRY":"Lithuania","OLD_NAME":"Kowno","NTIVE_NAME":"Kaunas","NAME":"Kaunas","X":23.892240999999999,"Y":54.896929999999998,"DATA":-4956163200000,"TEMPERATUR":"-32","CORPS":"III Corps","SOLDIERS":2000.0,"URL":"http://en.wikipedia.org/wiki/Kaunas"},"geometry":{"x":23.892240999999999,"y":54.896929999999998}},{"attributes":{"FID":2,"F1":5.0,"COUNTRY":"Belarus","OLD_NAME":"Polotsk","NTIVE_NAME":"Polack","NAME":"Polack","X":28.798627,"Y":55.489075,"DATA":-4968172800000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":27500.0,"URL":" "},"geometry":{"x":28.798627,"y":55.489075}},{"attributes":{"FID":3,"F1":1.0,"COUNTRY":"Lithuania","OLD_NAME":"Kowno","NTIVE_NAME":"Kaunas","NAME":"Kaunas","X":23.892240999999999,"Y":54.896929999999998,"DATA":-4970851200000,"TEMPERATUR":"30","CORPS":"III Corps","SOLDIERS":37900.0,"URL":"http://en.wikipedia.org/wiki/Kaunas"},"geometry":{"x":23.892240999999999,"y":54.896929999999998}},{"attributes":{"FID":4,"F1":2.0,"COUNTRY":"Lithuania","OLD_NAME":"Wilna","NTIVE_NAME":"Vilniaus, Wilno","NAME":"Vilnius","X":25.280127,"Y":54.689298000000001,"DATA":-4970592000000,"TEMPERATUR":"30","CORPS":"III Corps","SOLDIERS":36500.0,"URL":"http://en.wikipedia.org/wiki/Vilna"},"geometry":{"x":25.280127,"y":54.689298000000001}},{"attributes":{"FID":5,"F1":3.0,"COUNTRY":"Lithuania","OLD_NAME":"Maletai","NTIVE_NAME":"Moletai","NAME":"Moletai","X":25.414731,"Y":55.230054000000003,"DATA":-4970332800000,"TEMPERATUR":"30","CORPS":"III Corps","SOLDIERS":35000.0,"URL":" "},"geometry":{"x":25.414731,"y":55.230054000000003}},{"attributes":{"FID":6,"F1":4.0,"COUNTRY":"Belarus","OLD_NAME":"Swolna","NTIVE_NAME":"Swolna","NAME":"Swolna","X":28.111450999999999,"Y":55.748168,"DATA":-4969209600000,"TEMPERATUR":"30","CORPS":"III Corps","SOLDIERS":30000.0,"URL":" "},"geometry":{"x":28.111450999999999,"y":55.748168}},{"attributes":{"FID":7,"F1":7.0,"COUNTRY":"Belarus","OLD_NAME":"Witebsk","NTIVE_NAME":"Vitebsk","NAME":"Viciebsk","X":30.195433999999999,"Y":55.194405000000003,"DATA":-4967654400000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":26500.0,"URL":"http://en.wikipedia.org/wiki/Vitebsk"},"geometry":{"x":30.195433999999999,"y":55.194405000000003}},{"attributes":{"FID":8,"F1":6.0,"COUNTRY":"Belarus","OLD_NAME":"Ostrowno","NTIVE_NAME":"Astrouna","NAME":"Ostrowno","X":29.866337999999999,"Y":55.127218999999997,"DATA":-4968086400000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":27000.0,"URL":" "},"geometry":{"x":29.866337999999999,"y":55.127218999999997}},{"attributes":{"FID":9,"F1":8.0,"COUNTRY":"Belarus","OLD_NAME":"Liozna","NTIVE_NAME":"Liozno","NAME":"Liozna","X":30.799488,"Y":55.017029000000001,"DATA":-4967395200000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":26000.0,"URL":"http://en.wikipedia.org/wiki/Liozno"},"geometry":{"x":30.799488,"y":55.017029000000001}},{"attributes":{"FID":10,"F1":10.0,"COUNTRY":"Belarus","OLD_NAME":"Rasasna","NTIVE_NAME":"Dubrovno","NAME":"Dubrovno","X":30.694319,"Y":54.573940999999998,"DATA":-4966704000000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":25500.0,"URL":" "},"geometry":{"x":30.694319,"y":54.573940999999998}},{"attributes":{"FID":11,"F1":11.0,"COUNTRY":"Russian Federation","OLD_NAME":"Krasnoi","NTIVE_NAME":"Krasny","NAME":"Krasny","X":31.435890000000001,"Y":54.56183,"DATA":-4966531200000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":25500.0,"URL":"http://en.wikipedia.org/wiki/Krasny,_Smolensk_Oblast"},"geometry":{"x":31.435890000000001,"y":54.56183}},{"attributes":{"FID":12,"F1":28.0,"COUNTRY":"Russian Federation","OLD_NAME":"Smolensk","NTIVE_NAME":"Smolensk","NAME":"Smolensk","X":32.049098000000001,"Y":54.781084,"DATA":-4958323200000,"TEMPERATUR":"-21","CORPS":"III Corps","SOLDIERS":4000.0,"URL":"http://en.wikipedia.org/wiki/Smolensk"},"geometry":{"x":32.049098000000001,"y":54.781084}},{"attributes":{"FID":13,"F1":27.0,"COUNTRY":"Russian Federation","OLD_NAME":"Dorogobusch","NTIVE_NAME":"Dorogobuzh","NAME":"Dorogobuzh","X":33.307760000000002,"Y":54.920423999999997,"DATA":-4959273600000,"TEMPERATUR":"-11","CORPS":"III Corps","SOLDIERS":7000.0,"URL":" "},"geometry":{"x":33.307760000000002,"y":54.920423999999997}},{"attributes":{"FID":14,"F1":26.0,"COUNTRY":"Russian Federation","OLD_NAME":"Slawokowo (not precise)","NTIVE_NAME":"Semliovskoe","NAME":"Semliovskoe","X":33.851663000000002,"Y":55.043548000000001,"DATA":-4959360000000,"TEMPERATUR":"-11","CORPS":"III Corps","SOLDIERS":7500.0,"URL":" "},"geometry":{"x":33.851663000000002,"y":55.043548000000001}},{"attributes":{"FID":15,"F1":25.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wiasma","NTIVE_NAME":"Vyazma","NAME":"Vyazma","X":34.309812999999998,"Y":55.211440000000003,"DATA":-4959446400000,"TEMPERATUR":"-11","CORPS":"III Corps","SOLDIERS":8000.0,"URL":"http://en.wikipedia.org/wiki/Vyazma"},"geometry":{"x":34.309812999999998,"y":55.211440000000003}},{"attributes":{"FID":16,"F1":17.0,"COUNTRY":"Russian Federation","OLD_NAME":"Chiatz","NTIVE_NAME":"Gagarin","NAME":"Gagarin","X":35.012864999999998,"Y":55.550635,"DATA":-4964976000000,"TEMPERATUR":"15","CORPS":"III Corps","SOLDIERS":16000.0,"URL":"http://en.wikipedia.org/wiki/Gagarin,_Russia"},"geometry":{"x":35.012864999999998,"y":55.550635}},{"attributes":{"FID":17,"F1":18.0,"COUNTRY":"Russian Federation","OLD_NAME":"Borodino","NTIVE_NAME":"Borodino","NAME":"Borodino","X":35.816859999999998,"Y":55.517966000000001,"DATA":-4964457600000,"TEMPERATUR":"15","CORPS":"III Corps","SOLDIERS":12500.0,"URL":"http://en.wikipedia.org/wiki/Battle_of_Borodino"},"geometry":{"x":35.816859999999998,"y":55.517966000000001}},{"attributes":{"FID":18,"F1":19.0,"COUNTRY":"Russian Federation","OLD_NAME":"Moshaisk","NTIVE_NAME":"Mozhaysk","NAME":"Mozhaysk","X":36.034095999999998,"Y":55.504637000000002,"DATA":-4964198400000,"TEMPERATUR":"15","CORPS":"III Corps","SOLDIERS":12000.0,"URL":"http://en.wikipedia.org/wiki/Mozhaysk"},"geometry":{"x":36.034095999999998,"y":55.504637000000002}},{"attributes":{"FID":19,"F1":21.0,"COUNTRY":"Russian Federation","OLD_NAME":"Moscow","NTIVE_NAME":"Moscow","NAME":"Moscow","X":37.617758000000002,"Y":55.756278000000002,"DATA":-4960828800000,"TEMPERATUR":"0","CORPS":"III Corps","SOLDIERS":11500.0,"URL":"http://en.wikipedia.org/wiki/Moscow"},"geometry":{"x":37.617758000000002,"y":55.756278000000002}},{"attributes":{"FID":20,"F1":20.0,"COUNTRY":"Russian Federation","OLD_NAME":"Moscow","NTIVE_NAME":"Moscow","NAME":"Moscow","X":37.617758000000002,"Y":55.756278000000002,"DATA":-4963852800000,"TEMPERATUR":"15","CORPS":"III Corps","SOLDIERS":11500.0,"URL":"http://en.wikipedia.org/wiki/Moscow"},"geometry":{"x":37.617758000000002,"y":55.756278000000002}},{"attributes":{"FID":21,"F1":22.0,"COUNTRY":"Russian Federation","OLD_NAME":"Malo Jaroslawets","NTIVE_NAME":"Maloyaroslavets","NAME":"Maloyaroslavets","X":36.476559999999999,"Y":55.009594999999997,"DATA":-4960224000000,"TEMPERATUR":"0","CORPS":"III Corps","SOLDIERS":12000.0,"URL":"http://en.wikipedia.org/wiki/Maloyaroslavets"},"geometry":{"x":36.476559999999999,"y":55.009594999999997}},{"attributes":{"FID":22,"F1":23.0,"COUNTRY":"Russian Federation","OLD_NAME":"Borodino","NTIVE_NAME":"Borodino","NAME":"Borodino","X":35.816859999999998,"Y":55.517966000000001,"DATA":-4959878400000,"TEMPERATUR":"0","CORPS":"III Corps","SOLDIERS":11000.0,"URL":"http://en.wikipedia.org/wiki/Battle_of_Borodino"},"geometry":{"x":35.816859999999998,"y":55.517966000000001}},{"attributes":{"FID":23,"F1":24.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wiasma","NTIVE_NAME":"Vyazma","NAME":"Vyazma","X":34.309812999999998,"Y":55.211440000000003,"DATA":-4959705600000,"TEMPERATUR":"0","CORPS":"III Corps","SOLDIERS":9000.0,"URL":"http://en.wikipedia.org/wiki/Vyazma"},"geometry":{"x":34.309812999999998,"y":55.211440000000003}},{"attributes":{"FID":24,"F1":16.0,"COUNTRY":"Russian Federation","OLD_NAME":"Wiasma","NTIVE_NAME":"Vyazma","NAME":"Vyazma","X":34.309812999999998,"Y":55.211440000000003,"DATA":-4965148800000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":16500.0,"URL":"http://en.wikipedia.org/wiki/Vyazma"},"geometry":{"x":34.309812999999998,"y":55.211440000000003}},{"attributes":{"FID":25,"F1":15.0,"COUNTRY":"Russian Federation","OLD_NAME":"Slawokowo (not precise)","NTIVE_NAME":"Semliovskoe","NAME":"Semliovskoe","X":33.851663000000002,"Y":55.043548000000001,"DATA":-4965408000000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":17000.0,"URL":" "},"geometry":{"x":33.851663000000002,"y":55.043548000000001}},{"attributes":{"FID":26,"F1":14.0,"COUNTRY":"Russian Federation","OLD_NAME":"Dorogobusch","NTIVE_NAME":"Dorogobuzh","NAME":"Dorogobuzh","X":33.307760000000002,"Y":54.920423999999997,"DATA":-4965753600000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":17500.0,"URL":" "},"geometry":{"x":33.307760000000002,"y":54.920423999999997}},{"attributes":{"FID":27,"F1":12.0,"COUNTRY":"Russian Federation","OLD_NAME":"Smolensk","NTIVE_NAME":"Smolensk","NAME":"Smolensk","X":32.049098000000001,"Y":54.781084,"DATA":-4966272000000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":22000.0,"URL":"http://en.wikipedia.org/wiki/Smolensk"},"geometry":{"x":32.049098000000001,"y":54.781084}},{"attributes":{"FID":28,"F1":29.0,"COUNTRY":"Belarus","OLD_NAME":"Orscha","NTIVE_NAME":"Orsha","NAME":"Orsha","X":30.373000999999999,"Y":54.502636000000003,"DATA":-4957891200000,"TEMPERATUR":"-16","CORPS":"III Corps","SOLDIERS":4000.0,"URL":"http://en.wikipedia.org/wiki/Orsha"},"geometry":{"x":30.373000999999999,"y":54.502636000000003}},{"attributes":{"FID":29,"F1":30.0,"COUNTRY":"Belarus","OLD_NAME":"Borisow","NTIVE_NAME":"Barysau","NAME":"Barysau","X":28.509444999999999,"Y":54.23339,"DATA":-4957804800000,"TEMPERATUR":"-15","CORPS":"III Corps","SOLDIERS":4000.0,"URL":" "},"geometry":{"x":28.509444999999999,"y":54.23339}},{"attributes":{"FID":30,"F1":31.0,"COUNTRY":"Belarus","OLD_NAME":"Studienka","NTIVE_NAME":"Studienka","NAME":"Studienka","X":28.355236999999999,"Y":54.325052999999997,"DATA":-4957459200000,"TEMPERATUR":"-27","CORPS":"III Corps","SOLDIERS":2000.0,"URL":" "},"geometry":{"x":28.355236999999999,"y":54.325052999999997}},{"attributes":{"FID":31,"F1":32.0,"COUNTRY":"Belarus","OLD_NAME":"Molodetschno","NTIVE_NAME":"Maladziecna","NAME":"Maladziechna","X":26.858423999999999,"Y":54.317559000000003,"DATA":-4956940800000,"TEMPERATUR":"-36","CORPS":"III Corps","SOLDIERS":2000.0,"URL":" "},"geometry":{"x":26.858423999999999,"y":54.317559000000003}},{"attributes":{"FID":32,"F1":33.0,"COUNTRY":"Belarus","OLD_NAME":"Smorgoni","NTIVE_NAME":"Smarhon","NAME":"Smarhon","X":26.398738999999999,"Y":54.479869999999998,"DATA":-4956768000000,"TEMPERATUR":"-32","CORPS":"III Corps","SOLDIERS":2000.0,"URL":" "},"geometry":{"x":26.398738999999999,"y":54.479869999999998}},{"attributes":{"FID":33,"F1":9.0,"COUNTRY":"Belarus","OLD_NAME":"Rudnia","NTIVE_NAME":"Rudnya","NAME":"Rudnya","X":31.091267999999999,"Y":54.949998000000001,"DATA":-4967049600000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":25500.0,"URL":" "},"geometry":{"x":31.091267999999999,"y":54.949998000000001}},{"attributes":{"FID":34,"F1":13.0,"COUNTRY":"Russian federation","OLD_NAME":"Valutino","NTIVE_NAME":"Valutino","NAME":"Valutino","X":32.153587000000002,"Y":54.806210999999998,"DATA":-4966099200000,"TEMPERATUR":"20","CORPS":"III Corps","SOLDIERS":18000.0,"URL":" "},"geometry":{"x":32.153587000000002,"y":54.806210999999998}}]
+}

@@ -1,0 +1,99 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "F1" : "F1",
+    "COUNTRY" : "COUNTRY",
+    "OLD_NAME" : "OLD_NAME",
+    "NTIVE_NAME" : "NTIVE_NAME",
+    "NAME" : "NAME",
+    "X" : "X",
+    "Y" : "Y",
+    "DATA" : "DATA",
+    "TEMPERATUR" : "TEMPERATUR",
+    "CORPS" : "CORPS",
+    "SOLDIERS" : "SOLDIERS",
+    "URL" : "URL"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "F1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "F1"
+    },
+    {
+      "name" : "COUNTRY",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTRY",
+      "length" : 100
+    },
+    {
+      "name" : "OLD_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "OLD_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NTIVE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NTIVE_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "DATA",
+      "type" : "esriFieldTypeDate",
+      "alias" : "DATA",
+      "length" : 8
+    },
+    {
+      "name" : "TEMPERATUR",
+      "type" : "esriFieldTypeString",
+      "alias" : "TEMPERATUR",
+      "length" : 100
+    },
+    {
+      "name" : "CORPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CORPS",
+      "length" : 50
+    },
+    {
+      "name" : "SOLDIERS",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SOLDIERS"
+    },
+    {
+      "name" : "URL",
+      "type" : "esriFieldTypeString",
+      "alias" : "URL",
+      "length" : 254
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"F1":1.0,"COUNTRY":"Poland","OLD_NAME":"Surace","NTIVE_NAME":"Suraz","NAME":"Suraz","X":22.956578,"Y":52.949061999999998,"DATA":-4970246400000,"TEMPERATUR":"30","CORPS":"VII Corps_Saxons","SOLDIERS":16000.0,"URL":" "},"geometry":{"x":22.956578,"y":52.949061999999998}},{"attributes":{"FID":1,"F1":2.0,"COUNTRY":"Poland","OLD_NAME":"Bialystock","NTIVE_NAME":"Bialystok","NAME":"Bialystok","X":23.165189999999999,"Y":53.132094000000002,"DATA":-4969987200000,"TEMPERATUR":"30","CORPS":"VII Corps_Saxons","SOLDIERS":16000.0,"URL":" "},"geometry":{"x":23.165189999999999,"y":53.132094000000002}},{"attributes":{"FID":2,"F1":22.0,"COUNTRY":"Poland","OLD_NAME":"Drohiczym","NTIVE_NAME":"Drohiczyn","NAME":"Drohiczyn","X":22.658681999999999,"Y":52.400255000000001,"DATA":-4959878400000,"TEMPERATUR":"0","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":22.658681999999999,"y":52.400255000000001}},{"attributes":{"FID":3,"F1":20.0,"COUNTRY":"Poland","OLD_NAME":"Biala Podlaska","NTIVE_NAME":"Biala Podlaska","NAME":"Biala Podlaska","X":23.117156000000001,"Y":52.032744000000001,"DATA":-4961001600000,"TEMPERATUR":"0","CORPS":"VII Corps_Saxons","SOLDIERS":12000.0,"URL":" "},"geometry":{"x":23.117156000000001,"y":52.032744000000001}},{"attributes":{"FID":4,"F1":21.0,"COUNTRY":"Poland","OLD_NAME":"Skryszew","NTIVE_NAME":"Skryszew","NAME":"Skryszew","X":22.502806,"Y":52.401342999999997,"DATA":-4960137600000,"TEMPERATUR":"0","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":22.502806,"y":52.401342999999997}},{"attributes":{"FID":5,"F1":31.0,"COUNTRY":"Poland","OLD_NAME":"Siedlize","NTIVE_NAME":"Siedlce","NAME":"Siedlce","X":22.117055000000001,"Y":52.671329,"DATA":-4954867200000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":22.117055000000001,"y":52.671329}},{"attributes":{"FID":6,"F1":32.0,"COUNTRY":"Poland","OLD_NAME":"Warszaw","NTIVE_NAME":"Warszaw","NAME":"Warszaw","X":21.012302999999999,"Y":52.229667999999997,"DATA":-4954435200000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":21.012302999999999,"y":52.229667999999997}},{"attributes":{"FID":7,"F1":19.0,"COUNTRY":"Poland","OLD_NAME":"Drohiczym","NTIVE_NAME":"Drohiczyn","NAME":"Drohiczyn","X":22.658681999999999,"Y":52.400255000000001,"DATA":-4961174400000,"TEMPERATUR":"10","CORPS":"VII Corps_Saxons","SOLDIERS":12000.0,"URL":" "},"geometry":{"x":22.658681999999999,"y":52.400255000000001}},{"attributes":{"FID":8,"F1":30.0,"COUNTRY":"Poland","OLD_NAME":"Drohiczym","NTIVE_NAME":"Drohiczyn","NAME":"Drohiczyn","X":22.658681999999999,"Y":52.400255000000001,"DATA":-4955126400000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":22.658681999999999,"y":52.400255000000001}},{"attributes":{"FID":9,"F1":12.0,"COUNTRY":"Belarus","OLD_NAME":"Kobryn","NTIVE_NAME":"Kobryn","NAME":"Kobryn","X":24.358626000000001,"Y":52.217730000000003,"DATA":-4966704000000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":13000.0,"URL":" "},"geometry":{"x":24.358626000000001,"y":52.217730000000003}},{"attributes":{"FID":10,"F1":23.0,"COUNTRY":"Belarus","OLD_NAME":"Wolkowisk","NTIVE_NAME":"Vaukavysk","NAME":"Vaukavysk","X":24.451599999999999,"Y":53.156001000000003,"DATA":-4958496000000,"TEMPERATUR":"-23","CORPS":"VII Corps_Saxons","SOLDIERS":12000.0,"URL":" "},"geometry":{"x":24.451599999999999,"y":53.156001000000003}},{"attributes":{"FID":11,"F1":6.0,"COUNTRY":"Belarus","OLD_NAME":"Kleck","NTIVE_NAME":"Kletsk","NAME":"Kletsk","X":26.633286999999999,"Y":53.066788000000003,"DATA":-4969036800000,"TEMPERATUR":"30","CORPS":"VII Corps_Saxons","SOLDIERS":14000.0,"URL":" "},"geometry":{"x":26.633286999999999,"y":53.066788000000003}},{"attributes":{"FID":12,"F1":25.0,"COUNTRY":"Belarus","OLD_NAME":"Rozany","NTIVE_NAME":"Ruzhany","NAME":"Ruzhany","X":24.893356000000001,"Y":52.862323000000004,"DATA":-4956595200000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12000.0,"URL":" "},"geometry":{"x":24.893356000000001,"y":52.862323000000004}},{"attributes":{"FID":13,"F1":11.0,"COUNTRY":"Belarus","OLD_NAME":"Gorodeczna","NTIVE_NAME":"Gorodechna","NAME":"Gorodechna","X":24.299398,"Y":52.433971999999997,"DATA":-4966790400000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":14000.0,"URL":" "},"geometry":{"x":24.299398,"y":52.433971999999997}},{"attributes":{"FID":14,"F1":7.0,"COUNTRY":"Belarus","OLD_NAME":"Biten","NTIVE_NAME":"Byten","NAME":"Byten","X":25.502015,"Y":52.878321999999997,"DATA":-4968864000000,"TEMPERATUR":"30","CORPS":"VII Corps_Saxons","SOLDIERS":14000.0,"URL":" "},"geometry":{"x":25.502015,"y":52.878321999999997}},{"attributes":{"FID":15,"F1":5.0,"COUNTRY":"Belarus","OLD_NAME":"Nieswicz","NTIVE_NAME":"Niasviž","NAME":"Niasviz","X":26.680146000000001,"Y":53.222814999999997,"DATA":-4969123200000,"TEMPERATUR":"30","CORPS":"VII Corps_Saxons","SOLDIERS":16000.0,"URL":" "},"geometry":{"x":26.680146000000001,"y":53.222814999999997}},{"attributes":{"FID":16,"F1":4.0,"COUNTRY":"Belarus","OLD_NAME":"Slonim","NTIVE_NAME":"Slonim","NAME":"Slonim","X":25.317450000000001,"Y":53.071683,"DATA":-4969382400000,"TEMPERATUR":"30","CORPS":"VII Corps_Saxons","SOLDIERS":16000.0,"URL":" "},"geometry":{"x":25.317450000000001,"y":53.071683}},{"attributes":{"FID":17,"F1":9.0,"COUNTRY":"Belarus","OLD_NAME":"Gorodeczna","NTIVE_NAME":"Gorodechna","NAME":"Gorodechna","X":24.299398,"Y":52.433971999999997,"DATA":-4967913600000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":13000.0,"URL":" "},"geometry":{"x":24.299398,"y":52.433971999999997}},{"attributes":{"FID":18,"F1":8.0,"COUNTRY":"Belarus","OLD_NAME":"Kobryn","NTIVE_NAME":"Kobryn","NAME":"Kobryn","X":24.358626000000001,"Y":52.217730000000003,"DATA":-4968086400000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":13500.0,"URL":" "},"geometry":{"x":24.358626000000001,"y":52.217730000000003}},{"attributes":{"FID":19,"F1":15.0,"COUNTRY":"Ukraine","OLD_NAME":"Kolki","NTIVE_NAME":"Kolky","NAME":"Kolky","X":25.673147,"Y":51.100549000000001,"DATA":-4965148800000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":11500.0,"URL":" "},"geometry":{"x":25.673147,"y":51.100549000000001}},{"attributes":{"FID":20,"F1":13.0,"COUNTRY":"Ukraine","OLD_NAME":"Szask","NTIVE_NAME":"Shats'k","NAME":"Shats'k","X":23.931412999999999,"Y":51.497881,"DATA":-4965840000000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":11500.0,"URL":" "},"geometry":{"x":23.931412999999999,"y":51.497881}},{"attributes":{"FID":21,"F1":14.0,"COUNTRY":"Ukraine","OLD_NAME":"Kowel","NTIVE_NAME":"Kovel","NAME":"Kovel","X":24.713621,"Y":51.212899999999998,"DATA":-4965580800000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":11500.0,"URL":" "},"geometry":{"x":24.713621,"y":51.212899999999998}},{"attributes":{"FID":22,"F1":17.0,"COUNTRY":"Poland","OLD_NAME":"Opalin","NTIVE_NAME":"Opalin","NAME":"Opalin","X":23.599920000000001,"Y":51.249912999999999,"DATA":-4962470400000,"TEMPERATUR":"15","CORPS":"VII Corps_Saxons","SOLDIERS":11500.0,"URL":" "},"geometry":{"x":23.599920000000001,"y":51.249912999999999}},{"attributes":{"FID":23,"F1":16.0,"COUNTRY":"Ukraine","OLD_NAME":"Liuboml","NTIVE_NAME":"Liuboml","NAME":"Liuboml","X":24.036576,"Y":51.226731000000001,"DATA":-4962729600000,"TEMPERATUR":"15","CORPS":"VII Corps_Saxons","SOLDIERS":11500.0,"URL":" "},"geometry":{"x":24.036576,"y":51.226731000000001}},{"attributes":{"FID":24,"F1":29.0,"COUNTRY":"Belarus","OLD_NAME":"Wolczyn","NTIVE_NAME":"Wolczyn","NAME":"Wolczyn","X":23.310172000000001,"Y":52.285818999999996,"DATA":-4955212800000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":23.310172000000001,"y":52.285818999999996}},{"attributes":{"FID":25,"F1":28.0,"COUNTRY":"Belarus","OLD_NAME":"Kamieniec","NTIVE_NAME":"Kamyanyets","NAME":"Kamyanyets","X":23.829758999999999,"Y":52.397407000000001,"DATA":-4955472000000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":23.829758999999999,"y":52.397407000000001}},{"attributes":{"FID":26,"F1":26.0,"COUNTRY":"Belarus","OLD_NAME":"Podorosk","NTIVE_NAME":"Podorosk","NAME":"Podorosk","X":24.620754000000002,"Y":52.977401,"DATA":-4956336000000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12000.0,"URL":" "},"geometry":{"x":24.620754000000002,"y":52.977401}},{"attributes":{"FID":27,"F1":27.0,"COUNTRY":"Belarus","OLD_NAME":"Novi Dwor","NTIVE_NAME":"Novy Dvor","NAME":"Novy Dvor","X":24.355060000000002,"Y":52.831842000000002,"DATA":-4955904000000,"TEMPERATUR":"-32","CORPS":"VII Corps_Saxons","SOLDIERS":12500.0,"URL":" "},"geometry":{"x":24.355060000000002,"y":52.831842000000002}},{"attributes":{"FID":28,"F1":3.0,"COUNTRY":"Belarus","OLD_NAME":"Wolkowisk","NTIVE_NAME":"Vaukavysk","NAME":"Vaukavysk","X":24.451599999999999,"Y":53.156001000000003,"DATA":-4969641600000,"TEMPERATUR":"30","CORPS":"VII Corps_Saxons","SOLDIERS":16000.0,"URL":" "},"geometry":{"x":24.451599999999999,"y":53.156001000000003}},{"attributes":{"FID":29,"F1":10.0,"COUNTRY":"Belarus","OLD_NAME":"Rozany","NTIVE_NAME":"Ruzhany","NAME":"Ruzhany","X":24.893356000000001,"Y":52.862323000000004,"DATA":-4967827200000,"TEMPERATUR":"20","CORPS":"VII Corps_Saxons","SOLDIERS":13000.0,"URL":" "},"geometry":{"x":24.893356000000001,"y":52.862323000000004}},{"attributes":{"FID":30,"F1":24.0,"COUNTRY":"Belarus","OLD_NAME":"Kamieniec","NTIVE_NAME":"Kamyanyets","NAME":"Kamyanyets","X":23.829758999999999,"Y":52.397407000000001,"DATA":-4957804800000,"TEMPERATUR":"-15","CORPS":"VII Corps_Saxons","SOLDIERS":12000.0,"URL":" "},"geometry":{"x":23.829758999999999,"y":52.397407000000001}},{"attributes":{"FID":31,"F1":18.0,"COUNTRY":"Belarus","OLD_NAME":"Wolczyn","NTIVE_NAME":"Wolczyn","NAME":"Wolczyn","X":23.310172000000001,"Y":52.285818999999996,"DATA":-4961433600000,"TEMPERATUR":"10","CORPS":"VII Corps_Saxons","SOLDIERS":12000.0,"URL":" "},"geometry":{"x":23.310172000000001,"y":52.285818999999996}}]
+}

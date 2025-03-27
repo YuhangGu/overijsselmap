@@ -1,0 +1,99 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "F1" : "F1",
+    "COUNTRY" : "COUNTRY",
+    "OLD_NAME" : "OLD_NAME",
+    "NTIVE_NAME" : "NTIVE_NAME",
+    "NAME" : "NAME",
+    "X" : "X",
+    "Y" : "Y",
+    "DATA" : "DATA",
+    "TEMPERATUR" : "TEMPERATUR",
+    "CORPS" : "CORPS",
+    "SOLDIERS" : "SOLDIERS",
+    "URL" : "URL"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "F1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "F1"
+    },
+    {
+      "name" : "COUNTRY",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTRY",
+      "length" : 100
+    },
+    {
+      "name" : "OLD_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "OLD_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NTIVE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NTIVE_NAME",
+      "length" : 100
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "DATA",
+      "type" : "esriFieldTypeDate",
+      "alias" : "DATA",
+      "length" : 8
+    },
+    {
+      "name" : "TEMPERATUR",
+      "type" : "esriFieldTypeString",
+      "alias" : "TEMPERATUR",
+      "length" : 100
+    },
+    {
+      "name" : "CORPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CORPS",
+      "length" : 50
+    },
+    {
+      "name" : "SOLDIERS",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SOLDIERS"
+    },
+    {
+      "name" : "URL",
+      "type" : "esriFieldTypeString",
+      "alias" : "URL",
+      "length" : 254
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"F1":2.0,"COUNTRY":"Belarus","OLD_NAME":"Tschereia (not precise)","NTIVE_NAME":" ","NAME":" ","X":29.459607999999999,"Y":54.491847999999997,"DATA":-4960483200000,"TEMPERATUR":"0","CORPS":"II Corps_II part back way","SOLDIERS":4000.0,"URL":" "},"geometry":{"x":29.459607999999999,"y":54.491847999999997}},{"attributes":{"FID":1,"F1":3.0,"COUNTRY":"Belarus","OLD_NAME":"Smoliani (not precise)","NTIVE_NAME":" ","NAME":" ","X":30.062125999999999,"Y":54.596989000000001,"DATA":-4958755200000,"TEMPERATUR":"-26","CORPS":"II Corps_II part back way","SOLDIERS":4000.0,"URL":" "},"geometry":{"x":30.062125999999999,"y":54.596989000000001}},{"attributes":{"FID":2,"F1":1.0,"COUNTRY":"Belarus","OLD_NAME":"Polotsk","NTIVE_NAME":"Polack","NAME":"Polack","X":28.798627,"Y":55.489075,"DATA":-4960915200000,"TEMPERATUR":"0","CORPS":"II Corps_II part back way","SOLDIERS":18000.0,"URL":" "},"geometry":{"x":28.798627,"y":55.489075}},{"attributes":{"FID":3,"F1":5.0,"COUNTRY":"Belarus","OLD_NAME":"Borisow","NTIVE_NAME":"Barysau","NAME":"Barysau","X":29.460000000000001,"Y":54.491999999999997,"DATA":-4957804800000,"TEMPERATUR":"-15","CORPS":"II Corps_II part back way","SOLDIERS":4000.0,"URL":" "},"geometry":{"x":28.509444999999999,"y":54.23339}},{"attributes":{"FID":4,"F1":4.0,"COUNTRY":"Belarus","OLD_NAME":"Tschereia (not precise)","NTIVE_NAME":" ","NAME":" ","X":29.459607999999999,"Y":54.491847999999997,"DATA":-4958323200000,"TEMPERATUR":"-21","CORPS":"II Corps_II part back way","SOLDIERS":4000.0,"URL":" "},"geometry":{"x":29.459607999999999,"y":54.491847999999997}}]
+}
